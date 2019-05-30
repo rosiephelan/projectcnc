@@ -1,0 +1,47 @@
+body {
+     background-color: #F5E3E7;
+     colour: #4A262f;
+     font-family: Futura, sans-serif;
+     padding: 20px;
+}
+
+
+h1 {
+ text-align: left;
+}
+
+h2 {
+ text-align: left;
+}
+
+h3 {
+ text-decoration: underline;
+ text-align: left;
+}
+
+
+ text-align: left;
+ background-color: white;
+
+}
+
+   topnav:hover{
+     background-color: Black
+     color: white
+
+   }
+
+
+article {
+ width: 60%;
+ margin: 0px auto;
+}
+
+
+
+.address {
+ font-style: italic;
+ font-size: 12px;
+ margin-top: -15px;
+ text-align: left;
+}

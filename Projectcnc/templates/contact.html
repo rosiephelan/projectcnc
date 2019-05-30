@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+  <head>
+     <link rel="stylesheet" type="text/css" href="{{url_for("static",filename="css/contact.css")}}">
+  </head>
+
+  <nav>
+    <div class="topnav">
+    <a class="active" href="home">About Code ‘N’ Coffee</a>
+    <a href="#new">Latest Events</a>
+    <a href="contact">Contact</a>
+    <a href="#about">Socials</a>
+  </div>
+ </nav>
+
+  <div class="container">
+    <form method="post" action="/contact_return">
+
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="first name last name">
+
+      <label for="email">Email</label>
+      <input type="text" id="email" name="email" placeholder="your email address is ...">
+
+      <label for="gender">Gender</label><br>
+      <input type="radio" name="gender" value="male" checked> Male<br>
+      <input type="radio" name="gender" value="female"> Female<br>
+      <input type="radio" name="gender" value="other"> Other<br>
+      <br>
+
+      <label for="subject">Coding Dream</label>
+      <textarea id="subject" name="subject" placeholder="tell us why do you want to learn coding."height:200px"></textarea>
+
+      <input type="submit" value="Submit" id="submit-
+      button">
+
+    </form>
+  </div>
+  </html>
